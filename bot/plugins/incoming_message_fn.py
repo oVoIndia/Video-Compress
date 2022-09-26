@@ -99,7 +99,7 @@ async def incoming_start_message_f(bot, update):
                 ]
             ]
         ),
-        reply_to_message_id=update.Message.id,
+        reply_to_message_id=update.Message_id,
     )
     
 async def incoming_compress_message_f(bot, update):
@@ -145,7 +145,7 @@ async def incoming_compress_message_f(bot, update):
       await bot.send_message(
         chat_id=update.chat.id,
         text="🤬 Reply to telegram media 🤬",
-        reply_to_message_id=update.message.id
+        reply_to_message_id=update.Message_id
       )
     except:
       pass
