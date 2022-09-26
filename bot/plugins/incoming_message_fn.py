@@ -99,7 +99,7 @@ async def incoming_start_message_f(bot, update):
                 ]
             ]
         ),
-        reply_to_message_id=update.message.id,
+        reply_to_message_id=update.Message.id,
     )
     
 async def incoming_compress_message_f(bot, update):
