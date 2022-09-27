@@ -1,4 +1,5 @@
 aiohttp
+python_telegram_bot
 Pillow
 psutil
 hachoir
