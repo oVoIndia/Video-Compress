@@ -99,7 +99,7 @@ async def incoming_start_message_f(bot, update):
                 ]
             ]
         ),
-        parse_mode="markdown
+        parse_mode="markdown"
     )
     
 async def incoming_compress_message_f(bot, update):
