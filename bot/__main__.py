@@ -20,6 +20,7 @@ from bot.plugins.new_join_fn import (
     help_message_f	
 )
 
+from telegram import ParseMode
 from pyrogram import Client, filters
 from pyrogram.handlers import MessageHandler, CallbackQueryHandler
 
@@ -48,6 +49,7 @@ from bot.plugins.status_message_fn import (
 from bot.commands import Command
 from bot.plugins.call_back_button_handler import button
 
+parse_mode=ParseMode.HTML
 if __name__ == "__main__" :
     # create download directory, if not exist
     if not os.path.isdir(DOWNLOAD_LOCATION):
