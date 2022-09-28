@@ -64,7 +64,7 @@ if __name__ == "__main__" :
         workers=2
     )
     #
-    app.set_parse_mode("")
+    app.set_parse_mode("html")
     #
     # STATUS ADMIN Command
     incoming_status_command = MessageHandler(
